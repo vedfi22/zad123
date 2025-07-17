@@ -1,9 +1,0 @@
-my-pwa-app/  
-├── index.html          # Главная страница  
-├── app.js             # Логика приложения  
-├── styles.css         # Стили  
-├── manifest.json      # Настройки PWA  
-├── sw.js              # Service Worker  
-└── icons/             # Папка с иконками  
-    ├── icon-192.png   # 192x192  
-    └── icon-512.png   # 512x512  
