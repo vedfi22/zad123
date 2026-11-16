@@ -1,0 +1,378 @@
+{
+  "scale": {
+    "exact": "3",
+    "decimal": 3.0
+  },
+  "source_emf": [
+    {
+      "exact": "18",
+      "decimal": 18.0
+    },
+    {
+      "exact": "24",
+      "decimal": 24.0
+    },
+    {
+      "exact": "54",
+      "decimal": 54.0
+    }
+  ],
+  "currents": [
+    {
+      "exact": "6",
+      "decimal": 6.0
+    },
+    {
+      "exact": "-3",
+      "decimal": -3.0
+    },
+    {
+      "exact": "9",
+      "decimal": 9.0
+    },
+    {
+      "exact": "-15/2",
+      "decimal": -7.5
+    },
+    {
+      "exact": "-3/2",
+      "decimal": -1.5
+    },
+    {
+      "exact": "3/2",
+      "decimal": 1.5
+    }
+  ],
+  "mesh_currents": [
+    {
+      "exact": "15/2",
+      "decimal": 7.5
+    },
+    {
+      "exact": "3/2",
+      "decimal": 1.5
+    },
+    {
+      "exact": "-3/2",
+      "decimal": -1.5
+    }
+  ],
+  "star_resistances": [
+    {
+      "exact": "7/10",
+      "decimal": 0.7
+    },
+    {
+      "exact": "1/5",
+      "decimal": 0.2
+    },
+    {
+      "exact": "7/5",
+      "decimal": 1.4
+    }
+  ],
+  "simplified_resistances": [
+    {
+      "exact": "3",
+      "decimal": 3.0
+    },
+    {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    {
+      "exact": "2",
+      "decimal": 2.0
+    }
+  ],
+  "U_CO": {
+    "exact": "36",
+    "decimal": 36.0
+  },
+  "nodes_E_zero": {
+    "A": {
+      "exact": "-15/2",
+      "decimal": -7.5
+    },
+    "B": {
+      "exact": "219/5",
+      "decimal": 43.8
+    },
+    "C": {
+      "exact": "174/5",
+      "decimal": 34.8
+    },
+    "D": {
+      "exact": "18",
+      "decimal": 18.0
+    },
+    "E": {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    "F": {
+      "exact": "3",
+      "decimal": 3.0
+    },
+    "M": {
+      "exact": "9",
+      "decimal": 9.0
+    },
+    "N": {
+      "exact": "174/5",
+      "decimal": 34.8
+    },
+    "O": {
+      "exact": "-6/5",
+      "decimal": -1.2
+    }
+  },
+  "superposition": [
+    {
+      "source": 1,
+      "U_CO": {
+        "exact": "72/13",
+        "decimal": 5.538461538461538
+      },
+      "currents": [
+        {
+          "exact": "-54/13",
+          "decimal": -4.153846153846154
+        },
+        {
+          "exact": "-18/13",
+          "decimal": -1.3846153846153846
+        },
+        {
+          "exact": "-36/13",
+          "decimal": -2.769230769230769
+        }
+      ]
+    },
+    {
+      "source": 2,
+      "U_CO": {
+        "exact": "72/13",
+        "decimal": 5.538461538461538
+      },
+      "currents": [
+        {
+          "exact": "24/13",
+          "decimal": 1.8461538461538463
+        },
+        {
+          "exact": "60/13",
+          "decimal": 4.615384615384615
+        },
+        {
+          "exact": "-36/13",
+          "decimal": -2.769230769230769
+        }
+      ]
+    },
+    {
+      "source": 3,
+      "U_CO": {
+        "exact": "324/13",
+        "decimal": 24.923076923076923
+      },
+      "currents": [
+        {
+          "exact": "108/13",
+          "decimal": 8.307692307692308
+        },
+        {
+          "exact": "-81/13",
+          "decimal": -6.230769230769231
+        },
+        {
+          "exact": "189/13",
+          "decimal": 14.538461538461538
+        }
+      ]
+    }
+  ],
+  "thevenin": [
+    {
+      "branch": 1,
+      "U_open": {
+        "exact": "44",
+        "decimal": 44.0
+      },
+      "R_th": {
+        "exact": "4/3",
+        "decimal": 1.3333333333333333
+      },
+      "current": {
+        "exact": "6",
+        "decimal": 6.0
+      }
+    },
+    {
+      "branch": 2,
+      "U_open": {
+        "exact": "198/5",
+        "decimal": 39.6
+      },
+      "R_th": {
+        "exact": "6/5",
+        "decimal": 1.2
+      },
+      "current": {
+        "exact": "-3",
+        "decimal": -3.0
+      }
+    },
+    {
+      "branch": 3,
+      "U_open": {
+        "exact": "144/7",
+        "decimal": 20.571428571428573
+      },
+      "R_th": {
+        "exact": "12/7",
+        "decimal": 1.7142857142857142
+      },
+      "current": {
+        "exact": "9",
+        "decimal": 9.0
+      }
+    }
+  ],
+  "resistor_powers": [
+    {
+      "exact": "504/5",
+      "decimal": 100.8
+    },
+    {
+      "exact": "18",
+      "decimal": 18.0
+    },
+    {
+      "exact": "81",
+      "decimal": 81.0
+    },
+    {
+      "exact": "225/4",
+      "decimal": 56.25
+    },
+    {
+      "exact": "9/2",
+      "decimal": 4.5
+    },
+    {
+      "exact": "63/4",
+      "decimal": 15.75
+    },
+    {
+      "exact": "27/5",
+      "decimal": 5.4
+    },
+    {
+      "exact": "243/10",
+      "decimal": 24.3
+    }
+  ],
+  "total_resistor_power": {
+    "exact": "306",
+    "decimal": 306.0
+  },
+  "E3_terminal_output": {
+    "exact": "4617/10",
+    "decimal": 461.7
+  },
+  "E2_terminal_input": {
+    "exact": "387/5",
+    "decimal": 77.4
+  },
+  "efficiencies": [
+    {
+      "exact": "1",
+      "decimal": 1.0
+    },
+    {
+      "exact": "40/43",
+      "decimal": 0.9302325581395349
+    },
+    {
+      "exact": "19/20",
+      "decimal": 0.95
+    }
+  ],
+  "voltmeter_abs": {
+    "exact": "174/5",
+    "decimal": 34.8
+  },
+  "wattmeter_signed": {
+    "exact": "-387/5",
+    "decimal": -77.4
+  },
+  "potential_path_A_zero": [
+    [
+      {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    ],
+    [
+      {
+        "exact": "7",
+        "decimal": 7.0
+      },
+      {
+        "exact": "21/2",
+        "decimal": 10.5
+      }
+    ],
+    [
+      {
+        "exact": "9",
+        "decimal": 9.0
+      },
+      {
+        "exact": "15/2",
+        "decimal": 7.5
+      }
+    ],
+    [
+      {
+        "exact": "10",
+        "decimal": 10.0
+      },
+      {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    ]
+  ],
+  "kirchhoff_residuals": [
+    {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    {
+      "exact": "0",
+      "decimal": 0.0
+    },
+    {
+      "exact": "0",
+      "decimal": 0.0
+    }
+  ]
+}
